@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Archy EDT';
+    src: url('./fonts/ArchyEDT-Bold.eot');
+    src: url('./fonts/ArchyEDT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/ArchyEDT-Bold.woff2') format('woff2'),
+        url('./fonts/ArchyEDT-Bold.woff') format('woff'),
+        url('./fonts/ArchyEDT-Bold.ttf') format('truetype'),
+        url('./fonts/ArchyEDT-Bold.svg#ArchyEDT-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

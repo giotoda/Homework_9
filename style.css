@@ -1,0 +1,21 @@
+.container{
+    max-width: 1640px;
+    width: 100%;
+    margin: 40px auto;
+    align-items: center;
+}
+.flex{
+    font-family: 'Archy EDT';
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.flex li{
+    margin-right: 60px;
+    font-size: 20px;
+}
+.flex li a{
+    color: #707070;
+}
+
+
