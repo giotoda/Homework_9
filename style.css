@@ -27,6 +27,7 @@
     width: 100%;
     max-width: 483px;
     border: outset 4px;
+    flex-direction: row;
 }
 .h3_class{
     font-size: 40px;
@@ -49,11 +50,60 @@
     padding-top: 20px;
     padding-bottom: 85px;
     margin-left: 15px;
-
 }
 .relative a{
     position: absolute;
     right: 20px;
     color: #707070;
     font-size: 24px;
+}
+.loadmore_info{
+    position: relative;
+    font-size: 30px;
+    font-family: 'Archy EDT';
+    color: #707070;
+    margin-top: 60px;
+    justify-content: center;
+}
+.hover_border::after{
+    content: '';
+    width: 5%;
+    height: 4px;
+    bottom: 0%;
+    position: absolute;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,210,52,1) 21%, rgba(109,157,63,1) 36%, rgba(40,207,192,1) 53%, rgba(198,28,72,1) 71%, rgba(189,36,158,1) 72%, rgba(0,212,255,1) 93%);
+    border-radius: 5px;
+    transition: all 500ms ease;
+}
+.hover_border:hover::after{
+    left: 40%;
+    width: 20%;
+}
+.footer_bar{
+    background-color: #2E2E2E;
+    width: 100%;
+}
+.footer_bar section{
+    max-width: 1640px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+.cont_bar h3{
+    color: #F2F2F2;
+    font-size: 20px;
+    font-family: 'Archy EDT';
+}
+.cont_bar li{
+    color: #F2F2F2;
+    font-size: 13px;
+    font-family: 'Archy EDT';
+}
+.icons{
+    display: flex;
 }
