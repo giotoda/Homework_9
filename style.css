@@ -5,6 +5,7 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .container img{
     width: 100%;
@@ -27,7 +28,9 @@
     width: 100%;
     max-width: 483px;
     border: outset 4px;
-    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+
 }
 .h3_class{
     font-size: 40px;
@@ -83,6 +86,7 @@
 .footer_bar{
     background-color: #2E2E2E;
     width: 100%;
+
 }
 .footer_bar section{
     max-width: 1640px;
@@ -93,6 +97,7 @@
     width: 100%;
     padding-top: 70px;
     padding-bottom: 60px;
+    flex-wrap: wrap;
 }
 .cont_bar h3{
     color: #F2F2F2;
@@ -106,4 +111,13 @@
 }
 .icons{
     display: flex;
+    margin-right: 30px;
+}
+.footer_icons a{
+    margin-right: 30px;
+} 
+@media(max-width: 320px){
+    .flex li a{
+        display: none;
+    }
 }
